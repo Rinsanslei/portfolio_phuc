@@ -1,0 +1,229 @@
+
+.switch{
+    background-color: #141313;
+    width: 8vh;
+    height: 4vh;
+    border-radius: 100px;
+    padding: 5px;
+    display: flex;
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    transition: ease-in-out 0.7s;
+}
+
+.switch-img{
+    width: 2.5vh;
+    height: 2.5vh;
+    margin-left: -1px;
+    margin-top: 2px;
+}
+
+.switch-background{
+    background-color: #ffffff !important;
+}
+
+.switch-content{
+    display: flex;
+    position: relative;
+    width: 100%;
+}
+
+.switch button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 100%;
+    height: 100%;
+    width: 4vh;
+    position: absolute;
+    transition: ease-in-out  0.7s;
+
+}
+
+
+
+.right{
+    transform: translateX(4vh);
+    background-color: #141313 !important;
+}
+
+
+/* --------------------------------------------- Header --------------------------------------------- */
+
+header{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin-bottom: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    justify-content: space-between;
+}
+
+.header-content-center{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    margin-top: 15vh;
+}
+
+.header-content-center-title{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8vh;
+}
+
+.header-content-center-title-text{
+
+    font-family: "Caveat";
+    font-weight: 400;
+    font-size: 36px;
+    margin-top: -24%;
+    margin-left: auto;
+}
+
+.header-content-bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.header-text{
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header-text-important{
+    color: #7203FF;
+}
+
+.arrow-animation{
+    animation: 3s bounce infinite ease-in-out;
+    width: 5vh;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@keyframes bounce{
+    0%{ transform: translateY(0px); }
+    50%{ transform: translateY(-30px); }
+    100%{ transform: translateY(0px);}
+}
+
+/* ------------------------------------- Main project section ------------------------------------- */
+
+.main-project-section{
+    display: flex;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 8%;
+    margin-bottom: 5%;
+    align-items: top;
+}
+
+
+
+.main-project-section p{
+    font-family: 'Crimson Text';
+}
+
+.main-project-section-content-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    text-align: top;
+}
+
+.main-project-section-content-left-image{
+  width: 25vw;
+}
+
+@media (max-width: 992px) {
+  .main-project-section{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-project-section-content-left-image{
+    width: 70%;
+  }
+}
+
+
+.main-project-indicator{
+    font-family: Caveat;
+    text-decoration: underline;
+}
+
+/* ------------------------------------- Project list section ------------------------------------- */
+
+.projects-list-section{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+}
+
+.projects-list-section li a{
+    color: #7203FF;
+}
+
+.projects-list-section li {
+    margin-bottom: 24px;
+    color: #7203FF;
+}
+
+/* ------------------------------------- Footer ------------------------------------- */
+
+footer{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+}
+
+.footer-mobile{
+  display: none;
+}
+
+@media (max-width: 768px) {
+
+  footer{
+    display: none;
+  }
+
+  .footer-mobile{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 2%;
+    margin-bottom: 4%;
+  }
+
+  .footer-mobile p{
+    text-align: center;
+    margin-bottom: 24px;
+  }
+
+  .footer-mobile-navigation{
+    display: flex;
+    justify-content: space-between;
+  }
+
+}

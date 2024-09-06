@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+h1{
+    color: #000000;
+    font-family: "Caveat";
+    font-size: 128px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+h2{
+    color: #000000;
+    font-family: "Anonymous Pro";
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+p, li{
+    color: #000000;
+    font-family: "Anonymous Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    transition: ease-in-out 1s;
+}
+
+a{
+    color: #000000;
+    font-family: "Anonymous Pro";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: underline;
+}
+
+.dark-mode{
+    background: #141313;
+    transition: ease-in-out 1s;
+}
+
+.dark-mode p{
+    color: white ;
+    transition: ease-in-out 1s;
+}
+
+.dark-mode h1{
+    color: white ;
+    transition: ease-in-out 1s;
+}
+
+.dark-mode h2{
+    color: white ;
+    transition: ease-in-out 1s;
+}
+
+.dark-mode a{
+    color: white ;
+    transition: ease-in-out 1s;
+}
+
+
+
+/* Écrans de taille inférieure à 1200px (ordinateurs de bureau) */
+@media (max-width: 1200px) {
+  h1 {
+      font-size: 110px;
+  }
+
+  h2 {
+      font-size: 48px;
+  }
+
+  p, li {
+      font-size: 20px;
+  }
+
+  a{
+    font-size: 20px;
+  }
+
+  .header-content-center-title-text{
+    font-size: 30px;
+  }
+}
+
+/* Écrans de taille inférieure à 992px (ordinateurs portables) */
+@media (max-width: 992px) {
+  h1 {
+      font-size: 90px;
+  }
+
+  h2 {
+      font-size: 36px;
+  }
+
+  p{
+      font-size: 18px;
+  }
+
+  a{
+    font-size: 18px;
+  }
+
+  .header-content-center-title-text{
+    font-size: 24px;
+  }
+
+}
+
+/* Écrans de taille inférieure à 768px (tablettes) */
+@media (max-width: 768px) {
+  h1 {
+      font-size: 85px;
+  }
+
+  h2 {
+      font-size: 28px;
+  }
+
+  p, li {
+      font-size: 16px;
+  }
+
+  a{
+    font-size: 16px;
+  }
+
+
+  .header-content-center-title-text{
+    font-size: 20px;
+  }
+}
+
+/* Écrans de taille inférieure à 576px (smartphones) */
+@media (max-width: 576px) {
+  h1 {
+      font-size: 75px;
+  }
+
+  h2 {
+      font-size: 20px;
+  }
+
+  p, li {
+      font-size: 14px;
+  }
+
+  a{
+    font-size: 14px;
+  }
+
+  .header-content-center-title-text{
+    font-size: 18px;
+  }
+}
