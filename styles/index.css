@@ -145,6 +145,7 @@ header{
 
 .main-project-section-content-left-image{
   width: 25vw;
+  margin-top: 4vw;
 }
 
 @media (max-width: 992px) {
